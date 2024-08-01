@@ -145,29 +145,7 @@ body{
 /*Features container styling ends*/
 
 
-.footer{
-  height: 300px;
-  width: 1505px;
-  background-color: black;
-  color: white;
-  display: flex;
-  
-}
 
-.footer h1 {
-  font-size: 40px;
-  color: blue;
-  margin: 30px 40px;
-}
-
-.footer-contact{
-  margin: 60px 120px;
-  height: 200px;
-  width: 700px;
-  background-color: rgb(140, 118, 116);
-  color: black;
-  border-radius: 5px;
-}
 
 /* service section start */
 
@@ -259,3 +237,55 @@ body{
 }
 
 /* service section ends */
+
+
+/* footer section starts */
+
+.custom-shape-divider-top-1722533097 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1722533097 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1722533097 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.footer{
+  height: 300px;
+  width: 1505px;
+  background-color: #7e8c9c;
+  color: white;
+  display: flex;
+  position: relative;
+  padding-top: 150px;
+  
+}
+
+.footer h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 30px 40px;
+}
+
+.footer-contact{
+  margin: 60px 120px;
+  height: 200px;
+  width: 700px;
+  background-color: #c9d1d5;
+  color: black;
+  border-radius: 5px;
+}
+/* footer section starts ends */
