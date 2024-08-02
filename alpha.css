@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: Arial;
   behavior: smooth;
@@ -7,11 +12,13 @@ body{
   
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px;
+  margin: 20px 20px
   
 }
 
 .logo-section{
+  display: flex;
+  justify-content: center;
   margin-left: 60px;
   margin-right: 30px;
   align-items: center;
