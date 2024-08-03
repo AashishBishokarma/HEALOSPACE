@@ -65,7 +65,7 @@ body{
 
 .photo{
   height: 800px;
-  width: 1505px;
+  width: 1519px;
   background-color: rgb(0, 191, 255);
   display: flex;
   justify-content: center;
@@ -156,6 +156,14 @@ body{
 
 /* service section start */
 
+.our-service-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .Our{
   font-size: 100px;
   color: rgb(227, 219, 107);
@@ -187,6 +195,11 @@ body{
   height: 500px;
   margin-left: 90px;
   margin-right: 60px;
+}
+
+.image-detail{
+  margin-left: 30px;
+  padding-top: 100px;
 }
 
 .chat-with-bot{
@@ -272,7 +285,7 @@ body{
 
 .footer{
   height: 300px;
-  width: 1505px;
+  width: 1519px;
   background-color: #7e8c9c;
   color: white;
   display: flex;
@@ -294,5 +307,11 @@ body{
   background-color: #c9d1d5;
   color: black;
   border-radius: 5px;
+}
+
+.footer .footer-contact h2{
+  padding-left: 20px; 
+  color: black; 
+  margin-top: 30px;
 }
 /* footer section starts ends */
