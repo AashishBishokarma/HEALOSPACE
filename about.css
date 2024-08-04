@@ -1,3 +1,130 @@
+/* image section  */
 .anxiety{
-  width: ;
+  height: 800px;
+  width: 1519px;
+  
+
 }
+
+/* our story section  */
+
+.our-story{
+  display: flex;
+  /* background-color:#dbdbee ; */
+  background-color: #caecbe;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  width: 1200px;
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.our-story-logo{
+  width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.our-story-logo h1 {
+  margin-top: 40px;
+}
+
+.our-story-info{
+  width: 800px;
+  height: auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+/* our story section ends */
+
+/* about us section starts  */
+.about-section{
+  margin-top: 30px;
+  background-color:#f1f1f9;
+  height: 1100px;
+  
+}
+
+.about-section h1{
+  padding-top:50px;
+  padding-left:50px;
+  font-size: 45px;
+}
+
+
+.about-section h1 span{
+  color: rgb(239, 239, 127);
+}
+
+.card-section{
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f1f9;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  
+
+  height: fit-content;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  /* box-shadow: 1px 2px 3px rgba(0,0,0,0.5); */
+  box-shadow: 0 0 10px gray;
+}
+
+.card:hover{
+  padding: 10px;
+  transition:ease-in-out ;
+  transition-duration: 0.3s;
+}
+
+
+.card-photo{
+  height: 225px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.card-name{
+  background-color: bisque;
+  margin-top: 10px;
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.card-position{
+  text-align: center;
+  padding: 10px;
+
+}
+
+.card-position p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.card-position .linkedin {
+  
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  background-color: #0072b1;
+  padding: 5px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+/* about us section ends  */
